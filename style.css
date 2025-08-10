@@ -25,7 +25,7 @@ header .logo {
     display: flex;
     align-items: center;
     color: aliceblue;
- 
+
 }
 
 .logo img {
@@ -44,7 +44,7 @@ nav {
 }
 
 nav li {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 ul {
@@ -70,3 +70,78 @@ li a:hover {
     color: #f0f0f0;
     background: #1d2b64;
 }
+
+i {
+    margin-right: 5px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#Home{
+    background-image: url("images/hero-images.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 25px 25px black inset;
+    color: white;
+}
+
+.home-outline{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container{
+    background: #1d2b64;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-box{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.home-box h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f2f1ed; /* Gold color for emphasis */
+    text-shadow: 2px 2px 8px #000, 0 0 10px #ffd700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+}
+
+.home-box h1:hover {
+    color: #7c7b6b;
+    text-shadow: 2px 2px 12px #1d2b64, 0 0 20px #61604f;
+}
+
+#explore {
+    margin: 10px auto;  /* Changed margin-top to margin auto for horizontal centering */
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: rgba(29, 43, 100, 0.5);  /* Semi-transparent background */
+    border-radius: 5px;  /* Optional: adds rounded corners */
+    backdrop-filter: blur(5px);  /* Optional: adds blur effect */
+}
+
